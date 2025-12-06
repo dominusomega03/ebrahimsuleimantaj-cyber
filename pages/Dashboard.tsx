@@ -11,7 +11,7 @@ interface DashboardProps {
 }
 
 const Dashboard: React.FC<DashboardProps> = ({ user, setView, services }) => {
-  const [recommendation, setRecommendation] = useState<string>('Tumy is curating your elite experience...');
+  const [recommendation, setRecommendation] = useState<string>('TumyTum is curating your elite experience...');
 
   useEffect(() => {
     // Simulate fetching AI recommendation on mount
@@ -87,7 +87,7 @@ const Dashboard: React.FC<DashboardProps> = ({ user, setView, services }) => {
         <div className="glass p-5 rounded-3xl relative border border-white/50 dark:border-gray-700 shadow-sm">
             <div className="flex items-center gap-2 mb-2">
                 <Sparkles size={18} className="text-sky-500 dark:text-sky-400 fill-sky-200 dark:fill-sky-800" />
-                <h2 className="text-xs font-extrabold text-sky-600 dark:text-sky-400 uppercase tracking-widest">Tumy Insight</h2>
+                <h2 className="text-xs font-extrabold text-sky-600 dark:text-sky-400 uppercase tracking-widest">TumyTum Insight</h2>
             </div>
             <p className="text-sm text-gray-700 dark:text-gray-300 font-medium leading-relaxed italic">"{recommendation}"</p>
         </div>

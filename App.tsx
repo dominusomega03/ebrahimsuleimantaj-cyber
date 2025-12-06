@@ -300,7 +300,7 @@ function App() {
                 </div>
                 <div className="flex flex-col cursor-pointer">
                     <span className="font-extrabold text-2xl tracking-tight text-gray-800 dark:text-gray-100 leading-none transition-colors">
-                        Tumy<span className="text-sky-500">.</span>
+                        TumyTum<span className="text-sky-500">.</span>
                     </span>
                     <span className="text-[9px] font-bold text-sky-400 uppercase tracking-widest leading-none mt-1">
                         Infinite Happiness

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { UserProfile } from '../types';
 import { Crown, Trophy, Gift, Sparkles, Hexagon, Zap } from 'lucide-react';
@@ -25,7 +26,7 @@ const Rewards: React.FC<RewardsProps> = ({ user }) => {
     <div className="pb-24 pt-6 px-5 max-w-md mx-auto">
         <div className="flex items-center gap-2 mb-6">
              <Crown className="text-gold-500 fill-gold-200 dark:fill-gold-900/50" size={32} />
-             <h1 className="text-3xl font-black text-gray-800 dark:text-white tracking-tight">Tumy Club</h1>
+             <h1 className="text-3xl font-black text-gray-800 dark:text-white tracking-tight">TumyTum Club</h1>
         </div>
 
         {/* Card */}

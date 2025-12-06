@@ -15,7 +15,7 @@ const AIConcierge: React.FC<AIConciergeProps> = ({ user }) => {
     {
       id: 'welcome',
       role: 'model',
-      text: `Hi ${user.name.split(' ')[0]}! I'm Tumy! 🌟 Ready to get things done today?`,
+      text: `Hi ${user.name.split(' ')[0]}! I'm TumyTum! 🌟 Ready to get things done today?`,
       timestamp: Date.now()
     }
   ]);
@@ -94,7 +94,7 @@ const AIConcierge: React.FC<AIConciergeProps> = ({ user }) => {
               <span className="text-xl">🤖</span>
             </div>
             <div>
-              <h3 className="text-white font-extrabold text-lg">Tumy AI</h3>
+              <h3 className="text-white font-extrabold text-lg">TumyTum AI</h3>
               <span className="text-sky-100 text-xs flex items-center gap-1 font-medium">
                 <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse border border-white"></span>
                 Always Ready
@@ -128,7 +128,7 @@ const AIConcierge: React.FC<AIConciergeProps> = ({ user }) => {
              <div className="flex justify-start">
                <div className="bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 p-4 rounded-2xl rounded-bl-none shadow-sm flex items-center gap-2">
                  <Loader2 size={16} className="animate-spin text-sky-500" />
-                 <span className="text-xs text-gray-500 dark:text-gray-400 font-medium">Tumy is thinking...</span>
+                 <span className="text-xs text-gray-500 dark:text-gray-400 font-medium">TumyTum is thinking...</span>
                </div>
              </div>
           )}
@@ -143,7 +143,7 @@ const AIConcierge: React.FC<AIConciergeProps> = ({ user }) => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyDown={(e) => e.key === 'Enter' && handleSend()}
-              placeholder="Ask Tumy anything..."
+              placeholder="Ask TumyTum anything..."
               className="flex-1 bg-transparent border-0 px-3 py-2 text-sm focus:outline-none text-gray-800 dark:text-gray-200 placeholder:text-gray-400"
             />
             <button

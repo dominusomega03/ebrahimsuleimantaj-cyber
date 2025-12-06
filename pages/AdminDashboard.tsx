@@ -108,7 +108,7 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({ onLogout, services, pro
             <aside className="w-64 bg-white dark:bg-gray-800 border-r border-gray-200 dark:border-gray-700 hidden md:flex flex-col fixed h-full z-20">
                 <div className="p-6 border-b border-gray-100 dark:border-gray-700">
                     <h2 className="text-2xl font-black tracking-tight flex items-center gap-2">
-                        Tumy<span className="text-sky-500">.</span> <span className="text-xs bg-black text-white px-2 py-0.5 rounded font-medium">ADMIN</span>
+                        TumyTum<span className="text-sky-500">.</span> <span className="text-xs bg-black text-white px-2 py-0.5 rounded font-medium">ADMIN</span>
                     </h2>
                 </div>
                 
@@ -156,7 +156,7 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({ onLogout, services, pro
             <main className="flex-1 md:ml-64 p-4 md:p-8 overflow-y-auto">
                 {/* Mobile Header */}
                 <div className="md:hidden flex justify-between items-center mb-6">
-                     <h2 className="text-xl font-black">Tumy Admin</h2>
+                     <h2 className="text-xl font-black">TumyTum Admin</h2>
                      <button onClick={onLogout} className="p-2 bg-gray-200 dark:bg-gray-700 rounded-full"><LogOut size={16}/></button>
                 </div>
 

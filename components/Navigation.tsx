@@ -8,7 +8,7 @@ interface NavigationProps {
 
 const Navigation: React.FC<NavigationProps> = ({ currentView, setView }) => {
   const navItems = [
-    { id: 'dashboard', icon: Home, label: 'Tumy' },
+    { id: 'dashboard', icon: Home, label: 'TumyTum' },
     { id: 'services', icon: Grid, label: 'Book' },
     { id: 'marketplace', icon: ShoppingBag, label: 'Shop' },
     { id: 'rewards', icon: Crown, label: 'Club' },
